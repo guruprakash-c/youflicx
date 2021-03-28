@@ -1,0 +1,1 @@
+<p style="padding: 3em; padding-left: 0em;">Copyright &copy; <?=date('Y') ?> Youflicx, made with &#9825; by Youflicx.</p>

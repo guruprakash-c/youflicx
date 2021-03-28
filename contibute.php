@@ -6,7 +6,7 @@ ob_start();
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <title>Youflicx.</title>
+    <title>Contribute <?=html_entity_decode('&ndash; Youflicx.') ?></title>
     <?php require_once './_views/_head.php'; ?>
 </head>
 <body class="nojs">

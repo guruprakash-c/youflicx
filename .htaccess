@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1 [NC,L,R]
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php  [NC,L]
+ErrorDocument 404 /scrap/Technews/error.php?err=404
+ErrorDocument 500 /scrap/Technews/error.php?err=500
+ErrorDocument 400 /scrap/Technews/error.php?err=400
+ErrorDocument 401 /scrap/Technews/error.php?err=401
+ErrorDocument 403 /scrap/Technews/error.php?err=403
