@@ -5,9 +5,9 @@ namespace PageConfig{
 
     final class General{
     
-        private static $cipher = 'AES-128-CTR';
-        private static $iv = '1234567891098765';
-        private static $salt = 'GuruPrakashC';
+        private static $cipher = 'GUR';
+        private static $iv = 'XXXXXXXXX';
+        private static $salt = 'XYZXYZ';
 
         public static function Alert($message, $type="default"){
             $alertRes = '';
