@@ -1,1 +1,1 @@
-<p style="padding: 3em; padding-left: 0em;">Copyright &copy; <?=date('Y') ?> Youflicx, made with &#9825; by Youflicx.</p>
+<p class="px-0 py-3">Copyright &copy; <?=date('Y') ?> <img src="./assets/yx-logo.svg" width="20" height="20" border="0" class="img-responsive align-middle pb-1 me-0" alt="😉"/><strong class="fw-bolder">You</strong>flicx.tv, made with <i class="la la-heart text-love"></i> in Delaware.</p>
